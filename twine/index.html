@@ -15,10 +15,10 @@
 Its still ringing. [[Go Downstairs-&gt;Untitled Passage]] </tw-passagedata><tw-passagedata pid="3" name="Master Bedroom" tags="" position="525,321" size="100,100">Where do I put my mobile, i think there is something on the table. Oh its my mobile. Finally I find that...Mobile is still ringing, The display shows that Uncle is calling
 [[Accept It -&gt;Accept the call]]
 [[Reject It -&gt;Reject It]]
-(if: $Reject It is true)[The phone keep on ringing]</tw-passagedata><tw-passagedata pid="4" name="Accept the call" tags="" position="450,471" size="100,100">Listen your brother has been arrested, Stay calm. I am at police station.
+</tw-passagedata><tw-passagedata pid="4" name="Accept the call" tags="" position="450,471" size="100,100">Listen your brother has been arrested, Stay calm. I am at police station.
 i will handle everything.
 [[Stay Calm -&gt; StayCalm]]
-(if:$StayCalm is true)[Sit and relax and wait for the next morning]
+
 No, What???????? now what I suppose to do 
 [[Getting panic -&gt;Panic]]</tw-passagedata><tw-passagedata pid="5" name="Reject It" tags="" position="600,471" size="100,100">Reject the call, and now turn on the Tv. But again the phone starts ringing
 Now who is there ?? Incoming Call:Uncle is Calling..
@@ -26,10 +26,11 @@ I think there must be some urgency
 [[Accept it -&gt;Accept the call]]</tw-passagedata><tw-passagedata pid="6" name=" StayCalm" tags="" position="450,621" size="100,100">The next morning, I am here at police station, but the officers want something in favour
 They want me to give a statement against my brother 
 Bribe them
-[[Give Statement-&gt;Statement Against My Brother]] (if:$Statement Against My Brother is true)[You Fool they need bribe]
+[[Give Statement-&gt;Statement Against My Brother]] 
 [[Bribe them -&gt; Bribe]]</tw-passagedata><tw-passagedata pid="7" name="Statement Against My Brother" tags="" position="375,771" size="100,100">Good Job, Stand by your morals, Don&#39;t bribe.[[donot bribe -&gt; Donot Bribe]]
 Spend all of my savings and bribe them [[bribe them -&gt; Bribe]] </tw-passagedata><tw-passagedata pid="8" name=" Bribe" tags="" position="525,771" size="100,100">Manage to save some money to save my brother from police torture and terrorism charges. however I have no savings left to hire a lawyer
-[[Countiue with state Lawyer -&gt; Countinue with State Lawyer]] (if:$Continue with State Lawyer is true)[Play Again-&gt;Play Again]] 
+[[Countiue with state Lawyer -&gt; Countinue with State Lawyer]] 
+
 The bribe didnot work, Awaiting trail, they move my brother to the prison. The Covid-19 pendamic started soon after and now I havenot seen my diabetic brother in months.
 [[Arrange food and medicine -&gt; Food And Medicine]]</tw-passagedata><tw-passagedata pid="9" name="Panic" tags="" position="570,621" size="100,100">Now decided to visit police station , took rickshaw and reached there late at night. The officer on the duty want a bribe [[Pay Bribe -&gt; Bribe]]
 Lashout at the policeman refusing to pay anthing 
