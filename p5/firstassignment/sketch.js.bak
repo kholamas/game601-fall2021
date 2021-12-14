@@ -1,0 +1,40 @@
+function setup() {
+	createCanvas(windowWidth, windowHeight);
+	background(255);
+}
+function draw() {
+	fill(0,255,0);
+	noStroke();
+	rect(0,height-300,width,300);
+	fill (240,248,8);
+	rect(400,height-400,350,160);
+	fill(11,8,248);
+	rect(700,height-240,200,-300);
+	fill(240,248,8);
+	rect(750,height-500,100,60);
+	fill(251,24,0);
+	triangle(300,height-240, 400,height-400,400,height-240);
+	fill(251,24,0);
+	rect(530,height-470,40,70);
+	fill(11,8,248);
+	rect(510,height-500,80,40);
+	fill(240,248,8);
+	quad(510,height-500 ,590,height-500,610, height-550, 490, height-550);
+	fill(251,24,0);
+	ellipse(420,height-180,120,120);
+	fill(251,24,0);
+	ellipse(600,height-180,120,120);
+	//lipseMode(RADIUS);
+	fill(251,24,0);
+	ellipse(800,height-180,180,180);
+	ellipseMode(CENTER);
+	fill(240,248,8);
+	ellipse(800,height-180,80,80);
+	fill(11,8,248);
+	rect(420,height-190,450,20);
+}
+function mousePressed(){
+	fill(118,115,115);
+	ellipse(mouseX,mouseY,50,50);
+	ellipse(mouseX+30,mouseY+10,50,50);
+}

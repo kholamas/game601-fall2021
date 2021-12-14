@@ -1,0 +1,105 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>GAME 601 Portfolio (Fall 2021)</title>
+  <meta name="description" content="What I made in GAME 601 (Game Programming) at American University in Fall 2021">
+  <meta name="author" content="Khola Masood">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+  <div class="jumbotron bg-dark text-white m-0">
+    <h1 class="display-4">Khola Masood</h1>
+    <p class="lead">My games from GAME 601 - Game Prototyping at American University in Fall 2021</p>
+  </div>
+  <div class="card">
+    <div class="card-header h3">Game Modification: 001</div>
+    <div class="card-body row">
+      <div class="col-4">
+        <img class="img-fluid" src="gamemod.png">
+      </div>
+      <div class="col-6">
+       I select The Number Guessing Game to modify;I add set of rules, mini game and interactivity in modification so that the players will have interest in the game.
+      </div>
+      <div class="col-2">
+        <a class="btn btn-primary btn-block" href="gamemod.pdf" role="button">PLAY</a>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header h3">(Midterm) Non-Digital Game: Built the City</div>
+    <div class="card-body row">
+      <div class="col-4">
+        <img class="img-fluid" src="midtermlogo.jpeg">
+      </div>
+      <div class="col-6">
+        This Game is about how you manage your resources in order to develop a city.
+It’s a non cooperative , strategic board game designed initially for two players.There are a no. of resource assets cards which the players need to manage in order to develop the city, dams, cantonments or railway system for their area.
+There is a factor of Luck involve in this game too that’s the WOW factor in this game. It is a turn based , card/resource management  game.  Just roll the dice , move your player on the board anticlockwise , read the instructions , perform your task, if you don't have enough resources wait for the next turn because with every turn you will get resource cards. Choose them wisely to be in the game.Trade off and attaching your opponents cantonment are special features in this game.
+
+      </div>
+      <div class="col-2">
+        <a class="btn btn-primary btn-block" href="midterm.pdf" role="button">PLAY</a>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header h3">Hypertext Fiction: Each Action Counts</div>
+    <div class="card-body row">
+      <div class="col-4">
+        <img class="img-fluid" src="FILE_NAME_OF_IMAGE">
+      </div>
+      <div class="col-6">
+        REPLACE THIS WITH YOUR DESCRIPTION PARAGRAPH
+      </div>
+      <div class="col-2">
+        <a class="btn btn-primary btn-block" href="../twine/index.html" role="button">PLAY</a>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header h3">Interactive Fiction: Decide </div>
+    <div class="card-body row">
+      <div class="col-4">
+        <img class="img-fluid" src="FILE_NAME_OF_IMAGE">
+      </div>
+      <div class="col-6">
+        REPLACE THIS WITH YOUR DESCRIPTION PARAGRAPH
+      </div>
+      <div class="col-2">
+        <a class="btn btn-primary btn-block" href="../inform/play.html" role="button">PLAY</a>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header h3">Programming with p5js</div>
+    <div class="card-body row">
+      <div class="col-4">
+        <img class="img-fluid" src="FILE_NAME_OF_IMAGE">
+      </div>
+      <div class="col-6">
+        REPLACE THIS WITH YOUR DESCRIPTION PARAGRAPH
+      </div>
+      <div class="col-2">
+        <a class="btn btn-primary btn-block" href="../p5/firstassignment/index.html" role="button">PLAY</a>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header h3">(Final) Digital Game: YOUR TITLE HERE</div>
+    <div class="card-body row">
+      <div class="col-4">
+        <img class="img-fluid" src="FILE_NAME_OF_IMAGE">
+      </div>
+      <div class="col-6">
+        REPLACE THIS WITH YOUR DESCRIPTION PARAGRAPH
+      </div>
+      <div class="col-2">
+        <a class="btn btn-primary btn-block" href="../final/index.html" role="button">PLAY</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
